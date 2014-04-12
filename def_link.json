@@ -1,0 +1,32 @@
+{
+  "125/3": {
+    "color": "red", 
+    "name": "125/3o", 
+    "penwidth": 4
+  }, 
+  "16A": {
+    "color": "blue", 
+    "name": "16A", 
+    "penwidth": 1
+  }, 
+  "32/3": {
+    "color": "red", 
+    "name": "32/3o", 
+    "penwidth": 2
+  }, 
+  "32A": {
+    "color": "blue", 
+    "name": "32A", 
+    "penwidth": 2
+  }, 
+  "63/3": {
+    "color": "red", 
+    "name": "63/3o", 
+    "penwidth": 3
+  }, 
+  "powerlock": {
+    "color": "black", 
+    "name": "PL", 
+    "penwidth": 4
+  }
+}

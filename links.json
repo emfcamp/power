@@ -1,0 +1,287 @@
+[
+  {
+    "dst": "Kdis", 
+    "length": 5, 
+    "src": "Kgen"
+  }, 
+  {
+    "dst": "Kloc", 
+    "length": 10, 
+    "src": "Kdis"
+  }, 
+  {
+    "dst": "D1", 
+    "length": 100, 
+    "src": "Kdis"
+  }, 
+  {
+    "dst": "D2", 
+    "length": 50, 
+    "src": "Kdis"
+  }, 
+  {
+    "dst": "H1", 
+    "length": 50, 
+    "src": "Kdis"
+  }, 
+  {
+    "dst": "C2", 
+    "length": 50, 
+    "src": "Kdis"
+  }, 
+  {
+    "dst": "D1_DK", 
+    "length": 5, 
+    "src": "D1"
+  }, 
+  {
+    "dst": "E1_DK", 
+    "length": 5, 
+    "src": "E1"
+  }, 
+  {
+    "dst": "D2_DK", 
+    "length": 5, 
+    "src": "D2"
+  }, 
+  {
+    "dst": "E2_DK", 
+    "length": 5, 
+    "src": "E2"
+  }, 
+  {
+    "dst": "E1", 
+    "length": 75, 
+    "src": "D1"
+  }, 
+  {
+    "dst": "E2", 
+    "length": 75, 
+    "src": "D2"
+  }, 
+  {
+    "dst": "H2a", 
+    "length": 10, 
+    "src": "H1"
+  }, 
+  {
+    "dst": "H1_DK", 
+    "length": 20, 
+    "src": "H1"
+  }, 
+  {
+    "dst": "H2", 
+    "length": 10, 
+    "src": "H2a"
+  }, 
+  {
+    "dst": "H2_DK", 
+    "length": 10, 
+    "src": "H2"
+  }, 
+  {
+    "dst": "H3", 
+    "length": 25, 
+    "src": "H2a"
+  }, 
+  {
+    "dst": "H3_DK", 
+    "length": 10, 
+    "src": "H3"
+  }, 
+  {
+    "dst": "C2_DK", 
+    "length": 5, 
+    "src": "C2"
+  }, 
+  {
+    "dst": "C1", 
+    "length": 50, 
+    "src": "C2"
+  }, 
+  {
+    "dst": "C1_DK", 
+    "length": 5, 
+    "src": "C1"
+  }, 
+  {
+    "dst": "C3s", 
+    "length": 75, 
+    "src": "C2"
+  }, 
+  {
+    "dst": "C3", 
+    "length": 2, 
+    "src": "C3s"
+  }, 
+  {
+    "dst": "B1", 
+    "length": 75, 
+    "src": "C3s"
+  }, 
+  {
+    "dst": "C3_DK", 
+    "length": 5, 
+    "src": "C3"
+  }, 
+  {
+    "dst": "B1_DK", 
+    "length": 5, 
+    "src": "B1"
+  }, 
+  {
+    "dst": "Tdis", 
+    "length": 5, 
+    "src": "Tgen"
+  }, 
+  {
+    "dst": "S1", 
+    "length": 50, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "S2", 
+    "length": 100, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "NOC1", 
+    "length": 20, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "HQ1", 
+    "length": 10, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "StgC", 
+    "length": 50, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "StgB", 
+    "length": 25, 
+    "src": "Tdis"
+  }, 
+  {
+    "dst": "G1", 
+    "length": 75, 
+    "src": "StgB"
+  }, 
+  {
+    "dst": "G2", 
+    "length": 100, 
+    "src": "StgB"
+  }, 
+  {
+    "dst": "B2s", 
+    "length": 25, 
+    "src": "G2"
+  }, 
+  {
+    "dst": "B2", 
+    "length": 10, 
+    "src": "B2s"
+  }, 
+  {
+    "dst": "A1", 
+    "length": 50, 
+    "src": "B2s"
+  }, 
+  {
+    "dst": "S1_DK", 
+    "length": 5, 
+    "src": "S1"
+  }, 
+  {
+    "dst": "S2_DK", 
+    "length": 5, 
+    "src": "S2"
+  }, 
+  {
+    "dst": "NOC2", 
+    "length": 5, 
+    "src": "NOC1"
+  }, 
+  {
+    "dst": "NOC3", 
+    "length": 5, 
+    "src": "NOC1"
+  }, 
+  {
+    "dst": "HQ2", 
+    "length": 20, 
+    "src": "HQ1"
+  }, 
+  {
+    "dst": "HQ3", 
+    "length": 20, 
+    "src": "HQ1"
+  }, 
+  {
+    "dst": "G1_DK", 
+    "length": 5, 
+    "src": "G1"
+  }, 
+  {
+    "dst": "G2_DK", 
+    "length": 5, 
+    "src": "G2"
+  }, 
+  {
+    "dst": "B2_DK", 
+    "length": 5, 
+    "src": "B2"
+  }, 
+  {
+    "dst": "A1_DK", 
+    "length": 5, 
+    "src": "A1"
+  }, 
+  {
+    "dst": "Vdis", 
+    "length": 5, 
+    "src": "Vgen"
+  }, 
+  {
+    "dst": "Reef1", 
+    "length": 20, 
+    "src": "Vdis"
+  }, 
+  {
+    "dst": "Reef2", 
+    "length": 50, 
+    "src": "Vdis"
+  }, 
+  {
+    "dst": "R", 
+    "length": 50, 
+    "src": "Vdis"
+  }, 
+  {
+    "dst": "StgA1", 
+    "length": 75, 
+    "src": "Vdis"
+  }, 
+  {
+    "dst": "StgA2", 
+    "length": 25, 
+    "src": "StgA1"
+  }, 
+  {
+    "dst": "StgA3", 
+    "length": 25, 
+    "src": "StgA1"
+  }, 
+  {
+    "dst": "Cat1", 
+    "length": 25, 
+    "src": "Vdis"
+  }, 
+  {
+    "dst": "Cat2", 
+    "length": 25, 
+    "src": "Cat1"
+  }
+]
