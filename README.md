@@ -3,9 +3,9 @@ EMF2014 Power stuff
 Files
 =====
 
-mynet.tt - the actual network
-defs.tt - definition of distros etc
-power.tt - the actual guts
+* mynet.tt - the actual network
+* defs.tt - definition of distros etc
+* power.tt - the actual guts
 
 Generate
 ========
