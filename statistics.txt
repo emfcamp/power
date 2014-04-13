@@ -1,0 +1,32 @@
+
+Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
+Vgen 	10 	9 	300 	322.05
+Tgen 	23 	22 	600 	586.45
+Kgen 	27 	26 	742 	684.17
+Total	27 	26 	1642 	1592.67
+
+10 distros furthest from generator
+node	grid	distance(m)
+A1_DK 	Tgen 	210
+B1_DK 	Kgen 	210
+B1 	Kgen 	205
+A1 	Tgen 	205
+E1_DK 	Kgen 	185
+E1 	Kgen 	180
+B2_DK 	Tgen 	170
+B2 	Tgen 	165
+B2s 	Tgen 	155
+C3_DK 	Kgen 	137
+
+10 distros with worst voltage drop (50% of max current on all links)
+node	grid	vDrop(Volt)
+E1_DK 	Kgen 	17.7408
+E1 	Kgen 	17.248
+B1_DK 	Kgen 	16.59355
+A1_DK 	Tgen 	16.11455
+B1 	Kgen 	16.10075
+A1 	Tgen 	15.62175
+E2_DK 	Kgen 	12.8128
+E2 	Kgen 	12.32
+B2_DK 	Tgen 	12.17215
+B2 	Tgen 	11.67935

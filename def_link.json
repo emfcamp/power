@@ -2,31 +2,43 @@
   "125/3": {
     "color": "red", 
     "name": "125/3o", 
+    "density": 2.93,
+    "mvperM": 65.5,
     "penwidth": 4
   }, 
   "16A": {
     "color": "blue", 
     "name": "16A", 
+    "density": 0.196,
+    "mvperM": 118.56,
     "penwidth": 1
   }, 
   "32/3": {
     "color": "red", 
     "name": "32/3o", 
+    "density": 0.59,
+    "mvperM": 98.56,
     "penwidth": 2
   }, 
   "32A": {
     "color": "blue", 
     "name": "32A", 
+    "density": 0.37,
+    "mvperM": 98.56,
     "penwidth": 2
   }, 
   "63/3": {
     "color": "red", 
     "name": "63/3o", 
+    "density": 1.53,
+    "mvperM": 72.45,
     "penwidth": 3
   }, 
   "powerlock": {
     "color": "black", 
     "name": "PL", 
+    "density": 6.00,
+    "mvperM": 0,
     "penwidth": 4
   }
 }
