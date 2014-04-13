@@ -3,6 +3,7 @@ import json
 import networkx as nx
 import matplotlib.pyplot as plt
 import operator
+from collections import Counter
 
 f1 = open ('nodes.json')
 f2 = open ('links.json')
@@ -85,6 +86,12 @@ print "\n10 distros with worst voltage drop (50% of max current on all links)"
 print "node\tgrid\tvDrop(Volt)"
 for x in range(10):
 	print sorted_vDrop[x][0], '\t', nodeGrid[sorted_vDrop[x][0]], '\t', sorted_vDrop[x][1]/1000
+
+print
+print "Count of distros by type"
+print "Qty\tType"
+for (a,b) in Counter(nodes.values()).items() :
+	print b,'\t',a
 
 
 
