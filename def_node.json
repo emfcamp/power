@@ -58,7 +58,46 @@
         "port": "63/3"
       }
     ]
-  }, 
+  },
+  "EPS63-5": {
+    "in": "63/3", 
+    "out": [
+      {
+        "count": 9, 
+        "port": "32A"
+      }, 
+      {
+        "count": 1, 
+        "port": "63/3"
+      }
+    ]
+  },
+  "SBR": {
+    "in": "125/3", 
+    "out": [
+      {
+        "count": 4, 
+        "port": "63/3"
+      }
+    ]
+  },
+  "HTSB": {
+    "in": "125/3", 
+    "out": [
+      {
+        "count": 3, 
+        "port": "32A"
+      }, 
+      {
+        "count": 3, 
+        "port": "32/3"
+      }, 
+      {
+        "count": 1, 
+        "port": "63/3"
+      }
+    ]
+  },
   "GBR-1": {
     "in": "125/3", 
     "out": [
@@ -80,9 +119,90 @@
       }
     ]
   }, 
+  "GBR-2": {
+    "in": "125/3", 
+    "out": [
+      {
+        "count": 6, 
+        "port": "16A"
+      }, 
+      {
+        "count": 12, 
+        "port": "32A"
+      }, 
+      {
+        "count": 2, 
+        "port": "32/3"
+      }, 
+      {
+        "count": 1, 
+        "port": "63/3"
+      }
+    ]
+  }, 
+  "GBR-3": {
+    "in": "125/3", 
+    "out": [
+      {
+        "count": 6, 
+        "port": "16A"
+      }, 
+      {
+        "count": 6, 
+        "port": "32A"
+      }, 
+      {
+        "count": 2, 
+        "port": "32/3"
+      }, 
+      {
+        "count": 2, 
+        "port": "63/3"
+      }
+    ]
+  }, 
   "Reefer": {
     "in": "32/3"
-  }, 
+  },
+  "HT": {
+    "in": "powerlock", 
+    "out": [
+      {
+        "count": 6, 
+        "port": "63/3"
+      }
+    ]
+  },
+  "SPEC-4": {
+    "in": "powerlock", 
+    "out": [
+      {
+        "count": 4, 
+        "port": "63/3"
+      }, 
+      {
+        "count": 2, 
+        "port": "125/3"
+      }
+    ]
+  },
+  "SPEC-5": {
+    "in": "powerlock", 
+    "out": [
+      {
+        "count": 2, 
+        "port": "32A"
+      }, 
+      {
+        "count": 1, 
+        "port": "63/3"
+      }, 
+      {
+        "count": 3, 
+        "port": "125/3"
+      }
+    ]
+  },
   "SPEC-6": {
     "in": "powerlock", 
     "out": [
@@ -119,11 +239,40 @@
     ]
   }, 
   "TOB16": {
-    "in": "16A"
+    "in": "16A",
+    "out": [
+      {
+        "count": 14,
+        "port": "13A"
+      }
+    ]
   }, 
   "TOB32": {
-    "in": "32A"
+    "in": "32A",
+    "out": [
+      {
+        "count": 14,
+        "port": "13A"
+      }
+    ]
   }, 
+  "SOB": {
+    "in": "32A",
+    "out": [
+      {
+        "count": 4,
+        "port": "13A"
+      },
+      {
+        "count": 4, 
+        "port": "16A"
+      }, 
+      {
+        "count": 1, 
+        "port": "32A"
+      }
+    ]
+  },
   "gen": {
     "out": [
       {
