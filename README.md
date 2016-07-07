@@ -16,6 +16,7 @@ pip install networkx decorator
 ```
 
 If you want to go stright to pdf you also need Ghostscript-9.19
+
 macOS can get it from http://pages.uoregon.edu/koch/
 
 Generate

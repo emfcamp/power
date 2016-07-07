@@ -1,7 +1,7 @@
 
 Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
-Xgen 	58 	57 	1241 	1538.4
-Total	58 	57 	1241 	1538.4
+Xgen 	58 	57 	1226 	1515.45
+Total	58 	57 	1226 	1515.45
 
 10 distros furthest from generator
 node	grid	distance(m)
@@ -14,7 +14,7 @@ E1 	Xgen 	180
 GateB 	Xgen 	165
 J1_DK1 	Xgen 	162
 J1 	Xgen 	157
-C2_DK1 	Xgen 	137
+A1_DK1 	Xgen 	135
 
 10 distros with worst voltage drop (50% of max current on all links)
 node	grid	vDrop(Volt)
@@ -27,7 +27,7 @@ J1_DK1 	Xgen 	12.78917
 A2_Adapter 	Xgen 	12.505
 E1 	Xgen 	12.505
 J1 	Xgen 	12.19637
-C2_DK1 	Xgen 	9.57242
+A1_DK1 	Xgen 	9.3753
 
 Count of distros by type
 Qty	Type
