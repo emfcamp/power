@@ -1,4 +1,4 @@
-  {
+{
     "Xgen": "gen",
     "Xdis": "SPEC-4",
     "A1": "EPS63-3",
@@ -46,15 +46,16 @@
     "H3": "SOB",
     "J1": "EPS32",
     "J1_DK1": "TOB16",
-    "GateB": "SOB",
+    "Entrance": "SOB",
     "Workshop1_Dist": "EPS63-3",
     "Workshop1_A": "TOB32",
     "Workshop1_B": "TOB32",
-    "StageB_Dist": "EPS63-3",
+    "StageB_DistA": "EPS63-3",
     "StageB_A": "TOB32",
+    "StageB_DistB": "EPS63-3",
     "StageB_B": "TOB32",
     "Kids_Dist": "EPS63-3",
     "Kids_A": "TOB32",
     "Kids_B": "TOB32",
     "Kids_C": "TOB32"
-  }
+}

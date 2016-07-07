@@ -62,7 +62,7 @@
   {
     "src": "D1",
     "length": 60,
-    "dst": "GateB"
+    "dst": "Entrance"
   },
   {
     "src": "D1",
@@ -252,15 +252,20 @@
   {
     "src": "B_Dist",
     "length": 25,
-    "dst": "StageB_Dist"
+    "dst": "StageB_DistA"
   },
   {
-    "src": "StageB_Dist",
+    "src": "StageB_DistA",
     "length": 10,
     "dst": "StageB_A"
   },
   {
-    "src": "StageB_Dist",
+    "src": "StageB_DistA",
+    "length": 10,
+    "dst": "StageB_DistB"
+  },
+  {
+    "src": "StageB_DistB",
     "length": 10,
     "dst": "StageB_B"
   },

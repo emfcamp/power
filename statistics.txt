@@ -1,7 +1,7 @@
 
 Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
-Xgen 	58 	57 	1226 	1515.45
-Total	58 	57 	1226 	1515.45
+Xgen 	59 	58 	1236 	1530.75
+Total	59 	58 	1236 	1530.75
 
 10 distros furthest from generator
 node	grid	distance(m)
@@ -11,7 +11,7 @@ A2 	Xgen 	205
 E1_DK1 	Xgen 	185
 A2_Adapter 	Xgen 	180
 E1 	Xgen 	180
-GateB 	Xgen 	165
+Entrance 	Xgen 	165
 J1_DK1 	Xgen 	162
 J1 	Xgen 	157
 A1_DK1 	Xgen 	135
@@ -22,7 +22,7 @@ A2_DK2 	Xgen 	15.4618
 A2_DK1 	Xgen 	15.4618
 A2 	Xgen 	14.969
 E1_DK1 	Xgen 	13.0978
-GateB 	Xgen 	12.98485
+Entrance 	Xgen 	12.98485
 J1_DK1 	Xgen 	12.78917
 A2_Adapter 	Xgen 	12.505
 E1 	Xgen 	12.505
@@ -40,5 +40,5 @@ Qty	Type
 5 	SSB/32
 2 	TOB16
 1 	EPS63-4
-9 	EPS63-3
+10 	EPS63-3
 1 	gen
