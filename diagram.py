@@ -48,7 +48,7 @@ digraph emfcamp_power_%s {
 	edge [ fontname=ArialNarrow, fontcolor=red, fontsize=10 ];
 	"""%(grid)
 	print """	#display title block
-	title [shape=record, style="rounded,filled" margin=0.5 fillcolor="lightgray" label="EMF2014 Power|Grid: %s|%s"];
+	title [shape=record, style="rounded,filled" margin=0.5 fillcolor="lightgray" label="EMF2016 Power|Grid: %s|%s"];
 	"""%(grid, datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
 
 	for curn in nx.nodes(GG):
