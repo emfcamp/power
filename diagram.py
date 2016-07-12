@@ -72,6 +72,9 @@ digraph emfcamp_power_%s {
 				label = "%ix%s"%(opt['count'],def_link[opt['port']]['name'])
 			else:
 				label = def_link[opt['port']]['name']
+			if 'breaker' in opt:
+				label += " %s"%(opt['breaker'])
+
 			print """		<td port="%s"><font color="%s">%s</font></td>"""%(opt['port'],def_link[opt['port']]['color'],label)
 		print "			</tr></table>> ]"
 	ll_length = nx.get_edge_attributes(GG,'length')

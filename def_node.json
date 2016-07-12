@@ -4,11 +4,13 @@
     "out": [
       {
         "count": 9, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "Pass"
       }
     ]
   }, 
@@ -17,15 +19,18 @@
     "out": [
       {
         "count": 6, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 3, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "Pass"
       }
     ]
   }, 
@@ -34,15 +39,18 @@
     "out": [
       {
         "count": 6, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 6, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "Pass"
       }
     ]
   }, 
@@ -51,11 +59,13 @@
     "out": [
       {
         "count": 18, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "Pass"
       }
     ]
   },
@@ -64,11 +74,13 @@
     "out": [
       {
         "count": 9, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "Pass"
       }
     ]
   },
@@ -77,7 +89,8 @@
     "out": [
       {
         "count": 4, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   },
@@ -86,15 +99,18 @@
     "out": [
       {
         "count": 3, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 3, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   },
@@ -103,19 +119,23 @@
     "out": [
       {
         "count": 12, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 6, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 2, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   }, 
@@ -124,19 +144,23 @@
     "out": [
       {
         "count": 6, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 12, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 2, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   }, 
@@ -145,19 +169,23 @@
     "out": [
       {
         "count": 6, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 6, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "RCBO"
       }, 
       {
         "count": 2, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }, 
       {
         "count": 2, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   }, 
@@ -169,7 +197,8 @@
     "out": [
       {
         "count": 6, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }
     ]
   },
@@ -178,11 +207,13 @@
     "out": [
       {
         "count": 4, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "MCCB"
       }, 
       {
         "count": 2, 
-        "port": "125/3"
+        "port": "125/3",
+        "breaker": "MCCB"
       }
     ]
   },
@@ -191,15 +222,18 @@
     "out": [
       {
         "count": 2, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "MCCB"
       }, 
       {
         "count": 1, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "MCCB"
       }, 
       {
         "count": 3, 
-        "port": "125/3"
+        "port": "125/3",
+        "breaker": "RCD Adj"
       }
     ]
   },
@@ -208,15 +242,18 @@
     "out": [
       {
         "count": 4, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }, 
       {
         "count": 2, 
-        "port": "63/3"
+        "port": "63/3",
+        "breaker": "RCD Adj"
       }, 
       {
         "count": 1, 
-        "port": "125/3"
+        "port": "125/3",
+        "breaker": "RCD Adj"
       }
     ]
   }, 
@@ -225,7 +262,8 @@
     "out": [
       {
         "count": 4, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "MCB"
       }
     ]
   }, 
@@ -234,7 +272,8 @@
     "out": [
       {
         "count": 2, 
-        "port": "32/3"
+        "port": "32/3",
+        "breaker": "RCBO"
       }
     ]
   }, 
@@ -243,7 +282,8 @@
     "out": [
       {
         "count": 14,
-        "port": "13A"
+        "port": "13A",
+        "breaker": "RCBO"
       }
     ]
   }, 
@@ -252,7 +292,8 @@
     "out": [
       {
         "count": 14,
-        "port": "13A"
+        "port": "13A",
+        "breaker": "RCBO"
       }
     ]
   }, 
@@ -261,15 +302,18 @@
     "out": [
       {
         "count": 4,
-        "port": "13A"
+        "port": "13A",
+        "breaker": "MCB"
       },
       {
         "count": 4, 
-        "port": "16A"
+        "port": "16A",
+        "breaker": "MCB"
       }, 
       {
         "count": 1, 
-        "port": "32A"
+        "port": "32A",
+        "breaker": "Pass"
       }
     ]
   },
