@@ -44,8 +44,8 @@ for gen in gens:
 	print "\t", sum(nx.get_edge_attributes(SG[gen],'length').values()),
 	print "\t", sum(nx.get_edge_attributes(SG[gen],'mass').values())
 print "Total\t", 
-print nx.number_of_nodes(SG[gen]),
-print "\t",nx.number_of_edges(SG[gen]),
+print nx.number_of_nodes(G),
+print "\t",nx.number_of_edges(G),
 print "\t", sum(nx.get_edge_attributes(G,'length').values()),
 print "\t", sum(nx.get_edge_attributes(G,'mass').values())
  
@@ -93,5 +93,21 @@ print "Qty\tType"
 for (a,b) in Counter(nodes.values()).items() :
 	print b,'\t',a
 
+print "Count of cable lengths by grid"
+print "Grid\tType\tLength\tCount"
 
+LL={}
+for gen in gens:
+	lt = nx.get_edge_attributes(SG[gen],'ltype')
+	le = nx.get_edge_attributes(SG[gen],'length')
+	for l in SG[gen].edges_iter():
+		key = gen,lt[l],le[l]
+		if key in LL:
+			LL[key]+=1
+		else:
+			LL[key]=1
+
+for a in LL.keys():
+	# i am a knob
+	print "%s\t%s\t%s\t%i"%(a[0],a[1],a[2],LL[a])
 
