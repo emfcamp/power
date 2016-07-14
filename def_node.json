@@ -192,6 +192,12 @@
   "Reefer": {
     "in": "32/3"
   },
+  "PortaCabin": {
+    "in": "32A"
+  },
+  "ColdRoom": {
+    "in": "16A"
+  },
   "HT": {
     "in": "powerlock", 
     "out": [
@@ -256,7 +262,28 @@
         "breaker": "MCB+RCD Adj"
       }
     ]
-  }, 
+  },
+  "125AMF-EVENT": {
+    "in": "125/3", 
+    "out": [
+      {
+        "count": 1, 
+        "port": "16A"
+      },
+      {
+        "count": 1, 
+        "port": "32/3"
+      }, 
+      {
+        "count": 1, 
+        "port": "63/3"
+      }, 
+      {
+        "count": 1, 
+        "port": "125/3"
+      }
+    ]
+  },
   "SSB-1": {
     "in": "32A", 
     "out": [
@@ -277,6 +304,21 @@
       }
     ]
   }, 
+  "TH": {
+    "in": "63/3", 
+    "out": [
+      {
+        "count": 1, 
+        "port": "32/3",
+        "breaker": "RCBO"
+      },
+      {
+        "count": 1, 
+        "port": "63/3",
+        "breaker": "Pass"
+      }
+    ]
+  },
   "TOB16": {
     "in": "16A",
     "out": [
@@ -294,6 +336,24 @@
         "count": 14,
         "port": "13A",
         "breaker": "RCBO"
+      }
+    ]
+  }, 
+  "APAP16/4/13/.5": {
+    "in": "16A",
+    "out": [
+      {
+        "count": 4,
+        "port": "13A"
+      }
+    ]
+  },
+  "ADAP63/125": {
+    "in": "63/3",
+    "out": [
+      {
+        "count": 1,
+        "port": "125/3"
       }
     ]
   }, 

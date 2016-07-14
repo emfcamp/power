@@ -27,11 +27,6 @@
   {
     "src": "C1",
     "length": 50,
-    "dst": "C2_Adapter"
-  },
-  {
-    "src": "C2_Adapter",
-    "length": 2,
     "dst": "C2"
   },
   {
@@ -45,6 +40,16 @@
     "dst": "C2_DK2"
   },
   {
+    "src": "C2",
+    "length": 50,
+    "dst": "Changeover_X_Adapter"
+  },
+  {
+    "src": "Changeover_X_Adapter",
+    "length": 0.5,
+    "dst": "Changeover_X"
+  },
+  {
     "src": "C_Dist",
     "length": 75,
     "dst": "D1"
@@ -56,23 +61,13 @@
   },
   {
     "src": "D1",
-    "length": 5,
-    "dst": "D1_DK2"
-  },
-  {
-    "src": "D1",
-    "length": 60,
-    "dst": "Entrance"
-  },
-  {
-    "src": "D1",
     "length": 75,
-    "dst": "E1"
+    "dst": "D2"
   },
   {
-    "src": "E1",
+    "src": "D2",
     "length": 5,
-    "dst": "E1_DK1"
+    "dst": "D2_DK1"
   },
   {
     "src": "C_Dist",
@@ -95,13 +90,13 @@
     "dst": "H3"
   },
   {
-    "src": "H2",
+    "src": "H3",
     "length": 50,
-    "dst": "H1_Adapter"
+    "dst": "Entrance"
   },
   {
-    "src": "H1_Adapter",
-    "length": 2,
+    "src": "H2",
+    "length": 50,
     "dst": "H1"
   },
   {
@@ -117,6 +112,11 @@
   {
     "src": "H1",
     "length": 50,
+    "dst": "J1_Adapter"
+  },
+  {
+    "src": "J1_Adapter",
+    "length": 2,
     "dst": "J1"
   },
   {
@@ -126,12 +126,12 @@
   },
   {
     "src": "Xdis",
-    "length": 25,
+    "length": 50,
     "dst": "B_Dist"
   },
   {
     "src": "B_Dist",
-    "length": 100,
+    "length": 60,
     "dst": "A1"
   },
   {
@@ -145,13 +145,8 @@
     "dst": "A1_DK2"
   },
   {
-    "src": "A1",
+    "src": "B3",
     "length": 50,
-    "dst": "A2_Adapter"
-  },
-  {
-    "src": "A2_Adapter",
-    "length": 25,
     "dst": "A2"
   },
   {
@@ -166,7 +161,7 @@
   },
   {
     "src": "B_Dist",
-    "length": 35,
+    "length": 2,
     "dst": "B1"
   },
   {
@@ -180,13 +175,8 @@
     "dst": "B1_DK2"
   },
   {
-    "src": "B1",
-    "length": 50,
-    "dst": "B2_Adapter"
-  },
-  {
-    "src": "B2_Adapter",
-    "length": 10,
+    "src": "B_Dist",
+    "length": 75,
     "dst": "B2"
   },
   {
@@ -201,7 +191,22 @@
   },
   {
     "src": "B_Dist",
-    "length": 60,
+    "length": 75,
+    "dst": "B3"
+  },
+  {
+    "src": "B3",
+    "length": 5,
+    "dst": "B3_DK1"
+  },
+  {
+    "src": "B3",
+    "length": 5,
+    "dst": "B3_DK2"
+  },
+  {
+    "src": "StageB_DistA",
+    "length": 35,
     "dst": "Workshop1_Dist"
   },
     {
@@ -232,11 +237,6 @@
   {
     "src": "G2",
     "length": 50,
-    "dst": "G1_Adapter"
-  },
-  {
-    "src": "G1_Adapter",
-    "length": 2,
     "dst": "G1"
   },
   {
@@ -250,24 +250,19 @@
     "dst": "G1_DK2"
   },
   {
-    "src": "B_Dist",
-    "length": 25,
+    "src": "Xdis",
+    "length": 50,
     "dst": "StageB_DistA"
   },
   {
     "src": "StageB_DistA",
     "length": 10,
-    "dst": "StageB_A"
+    "dst": "StageB_Right"
   },
   {
     "src": "StageB_DistA",
     "length": 10,
-    "dst": "StageB_DistB"
-  },
-  {
-    "src": "StageB_DistB",
-    "length": 10,
-    "dst": "StageB_B"
+    "dst": "StageB_Left"
   },
   {
     "src": "Xdis",
@@ -288,5 +283,323 @@
     "src": "Kids_Dist",
     "length": 25,
     "dst": "Kids_C"
+  },
+
+  {
+    "src": "Ygen",
+    "length": 5, 
+    "dst": "Ydis"
+  },
+  {
+    "src": "Ydis",
+    "length": 50,
+    "dst": "StageA_DistA"
+  },
+  {
+    "src": "StageA_DistA",
+    "length": 5,
+    "dst": "StageA_Left"
+  },
+  {
+    "src": "StageA_DistA",
+    "length": 25,
+    "dst": "StageA_Right"
+  },
+   {
+    "src": "Ydis",
+    "length": 50,
+    "dst": "Volunteer_Dist"
+  },
+  {
+    "src": "Volunteer_Dist",
+    "length": 10,
+    "dst": "Volunteer_A"
+  },
+  {
+    "src": "Volunteer_Dist",
+    "length": 10,
+    "dst": "Volunteer_A"
+  },
+  {
+    "src": "Volunteer_Dist",
+    "length": 10,
+    "dst": "Volunteer_A"
+  },
+  {
+    "src": "Volunteer_Dist",
+    "length": 35,
+    "dst": "StageC_DistA"
+  },
+  {
+    "src": "StageC_DistA",
+    "length": 5,
+    "dst": "StageC_Left"
+  },
+  {
+    "src": "StageC_DistA",
+    "length": 10,
+    "dst": "StageC_Right"
+  },
+  {
+    "src": "Ydis",
+    "length": 35,
+    "dst": "Changeover_Y_Adapter"
+  },
+  {
+    "src": "Changeover_Y_Adapter",
+    "length": 0.5,
+    "dst": "Changeover_Y"
+  },
+  {
+    "src": "Changeover_Y",
+    "length": 50,
+    "dst": "HQ_Dist"
+  },
+  {
+    "src": "HQ_Dist",
+    "length": 10,
+    "dst": "HQ"
+  },
+  {
+    "src": "HQ_Dist",
+    "length": 10,
+    "dst": "NOC"
+  },
+  {
+    "src": "Changeover_Y",
+    "length": 5,
+    "dst": "Info_Dist"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 5,
+    "dst": "NOC_DC"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 5,
+    "dst": "NOC_DC_A"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 5,
+    "dst": "NOC_DC_B"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 10,
+    "dst": "Info_A"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 10,
+    "dst": "FirstAid_A"
+  },
+  {
+    "src": "Info_Dist",
+    "length": 25,
+    "dst": "GreenRoom_A"
+  },
+  {
+    "src": "Ydis",
+    "length": 75,
+    "dst": "HackCenter_Dist"
+  },
+  {
+    "src": "HackCenter_Dist",
+    "length": 10,
+    "dst": "HackCenter_A"
+  },
+  {
+    "src": "HackCenter_Dist",
+    "length": 10,
+    "dst": "HackCenter_B"
+  },
+  {
+    "src": "HackCenter_Dist",
+    "length": 25,
+    "dst": "HackCenter_C"
+  },
+  {
+    "src": "HackCenter_Dist",
+    "length": 50,
+    "dst": "Catering_Dist"
+  },
+  {
+    "src": "Catering_Dist",
+    "length": 25,
+    "dst": "K2_Adapter"
+  },
+  {
+    "src": "K2_Adapter",
+    "length": 5,
+    "dst": "K2"
+  },
+  {
+    "src": "K2",
+    "length": 5,
+    "dst": "K2_DK1"
+  },
+  {
+    "src": "K2",
+    "length": 25,
+    "dst": "WC_South"
+  },
+
+  {
+    "src": "Ydis",
+    "length": 50,
+    "dst": "Bar_Dist"
+  },
+  {
+    "src": "Bar_Dist",
+    "length": 10,
+    "dst": "Bar_A"
+  },
+  {
+    "src": "Bar_Dist",
+    "length": 25,
+    "dst": "ColdRoom_A"
+  },
+  {
+    "src": "Bar_Dist",
+    "length": 25,
+    "dst": "ColdRoom_B"
+  },
+  {
+    "src": "Bar_Dist",
+    "length": 25,
+    "dst": "ColdRoom_C"
+  },
+  {
+    "src": "Bar_Dist",
+    "length": 10,
+    "dst": "Lounge_DistA"
+  },
+
+  {
+    "src": "Lounge_DistA",
+    "length": 10,
+    "dst": "Lounge_A"
+  },
+  {
+    "src": "Lounge_DistA",
+    "length": 10,
+    "dst": "Lounge_B"
+  },
+  {
+    "src": "Lounge_DistA",
+    "length": 25,
+    "dst": "Lounge_DistB"
+  },
+  {
+    "src": "Lounge_DistB",
+    "length": 10,
+    "dst": "Lounge_C"
+  },
+  {
+    "src": "Lounge_DistB",
+    "length": 10,
+    "dst": "Lounge_D"
+  },
+
+
+  {
+    "src": "Bar_dist",
+    "length": 25,
+    "dst": "K1"
+  },
+  {
+    "src": "K1",
+    "length": 5,
+    "dst": "K1_DK1"
+  },
+    {
+    "src": "Bar_dist",
+    "length": 50,
+    "dst": "Tree"
+  },
+
+
+  {
+    "src": "Bar_Dist",
+    "length": 35,
+    "dst": "Workshop2_Dist"
+  },
+  {
+    "src": "Workshop2_Dist",
+    "length": 5,
+    "dst": "Workshop2_A"
+  },
+  {
+    "src": "Workshop2_Dist",
+    "length": 5,
+    "dst": "Workshop2_A"
+  },
+  {
+    "src": "Workshop2_Dist",
+    "length": 5,
+    "dst": "Workshop2_Adapter"
+  },
+    {
+    "src": "Workshop2_Adapter",
+    "length": 15,
+    "dst": "Badge_Dist"
+  },
+  {
+    "src": "Badge_Dist",
+    "length": 5,
+    "dst": "Badge_A"
+  },
+  {
+    "src": "Badge_Dist",
+    "length": 5,
+    "dst": "Badge_A"
+  },
+  {
+    "src": "Badge_Dist",
+    "length": 25,
+    "dst": "Retrogamming_Dist"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 25,
+    "dst": "Retrogamming_A"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 25,
+    "dst": "Retrogamming_B"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 25,
+    "dst": "Retrogamming_C"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 10,
+    "dst": "Retrogamming_D"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 10,
+    "dst": "Retrogamming_E"
+  },
+  {
+    "src": "Retrogamming_Dist",
+    "length": 25,
+    "dst": "Algorave"
+  },
+  {
+    "src": "Workshop2_Adapter",
+    "length": 50,
+    "dst": "Spillout"
+  },
+    {
+    "src": "Spillout",
+    "length": 50,
+    "dst": "Showers"
   }
+ 
 ]

@@ -1,44 +1,51 @@
 
 Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
-Xgen 	59 	58 	1236 	1530.75
-Total	59 	58 	1236 	1530.75
+Ygen 	56 	55 	1115.5 	1070.735
+Xgen 	58 	57 	1284.5 	1729.245
+Total	58 	57 	2480.0 	2845.21
 
 10 distros furthest from generator
 node	grid	distance(m)
-A2_DK2 	Xgen 	210
-A2_DK1 	Xgen 	210
-A2 	Xgen 	205
-E1_DK1 	Xgen 	185
-A2_Adapter 	Xgen 	180
-E1 	Xgen 	180
-Entrance 	Xgen 	165
-J1_DK1 	Xgen 	162
-J1 	Xgen 	157
-A1_DK1 	Xgen 	135
+Showers 	Ygen 	195
+WC_South 	Ygen 	185
+A2_DK2 	Xgen 	185
+A2_DK1 	Xgen 	185
+D2_DK1 	Xgen 	185
+A2 	Xgen 	180
+D2 	Xgen 	180
+Changeover_X 	Xgen 	165.5
+K2_DK1 	Ygen 	165
+Changeover_X_Adapter 	Xgen 	165
 
 10 distros with worst voltage drop (50% of max current on all links)
 node	grid	vDrop(Volt)
-A2_DK2 	Xgen 	15.4618
-A2_DK1 	Xgen 	15.4618
-A2 	Xgen 	14.969
-E1_DK1 	Xgen 	13.0978
-Entrance 	Xgen 	12.98485
-J1_DK1 	Xgen 	12.78917
-A2_Adapter 	Xgen 	12.505
-E1 	Xgen 	12.505
-J1 	Xgen 	12.19637
-A1_DK1 	Xgen 	9.3753
+Showers 	Ygen 	16.029
+WC_South 	Ygen 	13.8243
+Entrance 	Xgen 	13.30475
+D2_DK1 	Xgen 	13.0978
+A2_DK2 	Xgen 	12.82405
+A2_DK1 	Xgen 	12.82405
+D2 	Xgen 	12.505
+A2 	Xgen 	12.33125
+K2_DK1 	Ygen 	11.9531
+Retrogamming_A 	Ygen 	11.535
 
 Count of distros by type
 Qty	Type
 2 	SBR
-1 	SPEC-4
-2 	SOB
-5 	EPS32-2
+2 	SPEC-4
+6 	SOB
+9 	EPS32-2
+2 	ADAP63/125
 1 	EPS32
-29 	TOB32
-5 	SSB/32
-2 	TOB16
-1 	EPS63-4
-10 	EPS63-3
-1 	gen
+2 	125AMF-EVENT
+1 	GBR-3
+2 	EPS63-4
+55 	TOB32
+3 	SSB/32
+6 	TOB16
+1 	TH
+4 	ColdRoom
+23 	EPS63-3
+2 	gen
+2 	PortaCabin
