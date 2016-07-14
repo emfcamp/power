@@ -90,7 +90,7 @@
       {
         "count": 4, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   },
@@ -110,7 +110,7 @@
       {
         "count": 1, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   },
@@ -135,7 +135,7 @@
       {
         "count": 1, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   }, 
@@ -160,7 +160,7 @@
       {
         "count": 1, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   }, 
@@ -185,7 +185,7 @@
       {
         "count": 2, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   }, 
@@ -198,7 +198,7 @@
       {
         "count": 6, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   },
@@ -233,7 +233,7 @@
       {
         "count": 3, 
         "port": "125/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   },
@@ -248,12 +248,12 @@
       {
         "count": 2, 
         "port": "63/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }, 
       {
         "count": 1, 
         "port": "125/3",
-        "breaker": "RCD Adj"
+        "breaker": "MCB+RCD Adj"
       }
     ]
   }, 

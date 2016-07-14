@@ -73,7 +73,7 @@ digraph emfcamp_power_%s {
 			else:
 				label = def_link[opt['port']]['name']
 			if 'breaker' in opt:
-				label += " %s"%(opt['breaker'])
+				label += "<br/>%s"%(opt['breaker'])
 
 			print """		<td port="%s"><font color="%s">%s</font></td>"""%(opt['port'],def_link[opt['port']]['color'],label)
 		print "			</tr></table>> ]"
