@@ -11,7 +11,7 @@
   },
   {
     "src": "C_Dist",
-    "length": 35,
+    "length": 25,
     "dst": "C1"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "src": "C2",
-    "length": 50,
+    "length": 60,
     "dst": "Changeover_X_Adapter"
   },
   {
@@ -145,6 +145,11 @@
     "dst": "A1_DK2"
   },
   {
+    "src": "B1",
+    "length": 35,
+    "dst": "Milliways"
+  },
+  {
     "src": "B3",
     "length": 50,
     "dst": "A2"
@@ -204,6 +209,7 @@
     "length": 5,
     "dst": "B3_DK2"
   },
+
   {
     "src": "StageB_DistA",
     "length": 35,
@@ -248,6 +254,21 @@
     "src": "G1",
     "length": 5,
     "dst": "G1_DK2"
+  },
+  {
+    "src": "Workshop1_Dist",
+    "length": 50,
+    "dst": "G3"
+  },
+  {
+    "src": "G3",
+    "length": 5,
+    "dst": "G3_DK1"
+  },
+  {
+    "src": "G3",
+    "length": 5,
+    "dst": "G3_DK2"
   },
   {
     "src": "Xdis",
@@ -559,35 +580,35 @@
   {
     "src": "Badge_Dist",
     "length": 25,
-    "dst": "Retrogamming_Dist"
+    "dst": "Arcade_Dist"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 25,
-    "dst": "Retrogamming_A"
+    "dst": "Arcade_A"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 25,
-    "dst": "Retrogamming_B"
+    "dst": "Arcade_B"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 25,
-    "dst": "Retrogamming_C"
+    "dst": "Arcade_C"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 10,
-    "dst": "Retrogamming_D"
+    "dst": "Arcade_D"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 10,
-    "dst": "Retrogamming_E"
+    "dst": "Arcade_E"
   },
   {
-    "src": "Retrogamming_Dist",
+    "src": "Arcade_Dist",
     "length": 25,
     "dst": "Algorave"
   },
