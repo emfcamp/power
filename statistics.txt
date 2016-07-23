@@ -1,8 +1,8 @@
 
 Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
 Ygen 	56 	55 	1115.5 	1070.735
-Xgen 	58 	57 	1284.5 	1729.245
-Total	58 	57 	2480.0 	2845.21
+Xgen 	62 	61 	1379.5 	1862.995
+Total	128 	119 	2575.0 	2978.96
 
 10 distros furthest from generator
 node	grid	distance(m)
@@ -28,7 +28,7 @@ A2_DK1 	Xgen 	12.82405
 D2 	Xgen 	12.505
 A2 	Xgen 	12.33125
 K2_DK1 	Ygen 	11.9531
-Retrogamming_A 	Ygen 	11.535
+Arcade_A 	Ygen 	11.535
 
 Count of distros by type
 Qty	Type
@@ -41,11 +41,49 @@ Qty	Type
 2 	125AMF-EVENT
 1 	GBR-3
 2 	EPS63-4
-55 	TOB32
-3 	SSB/32
+57 	TOB32
+4 	SSB/32
 6 	TOB16
 1 	TH
 4 	ColdRoom
-23 	EPS63-3
+24 	EPS63-3
 2 	gen
 2 	PortaCabin
+
+Count of cable lengths by grid
+Grid	Type	Length	Count
+Ygen	powerlock	5	1
+Xgen	63/3	60	2
+Xgen	125/3	25	1
+Xgen	63/3	25	2
+Ygen	125/3	50	1
+Ygen	32A	5	6
+Xgen	63/3	75	4
+Xgen	32A	50	2
+Ygen	32/3	50	3
+Xgen	32A	10	6
+Xgen	16A	5	3
+Xgen	32/3	2	1
+Xgen	32A	25	1
+Ygen	63/3	5	2
+Ygen	32/3	25	2
+Xgen	32A	5	24
+Xgen	63/3	2	1
+Xgen	powerlock	5	1
+Ygen	16A	25	3
+Ygen	16A	10	1
+Xgen	125/3	0.5	1
+Xgen	125/3	50	1
+Ygen	16A	5	2
+Ygen	63/3	50	3
+Ygen	32/3	10	1
+Ygen	63/3	35	3
+Ygen	32/3	5	1
+Xgen	63/3	35	3
+Ygen	32A	25	7
+Ygen	63/3	15	1
+Xgen	63/3	50	8
+Ygen	32A	10	14
+Ygen	125/3	0.5	1
+Ygen	63/3	75	1
+Ygen	63/3	25	2

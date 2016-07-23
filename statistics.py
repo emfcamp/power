@@ -93,6 +93,7 @@ print "Qty\tType"
 for (a,b) in Counter(nodes.values()).items() :
 	print b,'\t',a
 
+print
 print "Count of cable lengths by grid"
 print "Grid\tType\tLength\tCount"
 

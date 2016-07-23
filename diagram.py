@@ -65,7 +65,7 @@ digraph emfcamp_power_%s {
 			print """		<td%s PORT="in"><font color="%s">%s</font></td>"""%(rowspan, def_link[inp]['color'], def_link[inp]['name'])
 		except KeyError:
 			pass
-		print """		<td%s><font color="orange">%s</font><br/>%s</td>"""%(rowspan, curn, nodes[curn])
+		print """		<td%s><font color="purple">%s</font><br/>%s</td>"""%(rowspan, curn, nodes[curn])
 		for i, opt in enumerate(opts):
 			if i>0 : print "		</tr><tr>" 
 			if opt['count'] > 1: 
