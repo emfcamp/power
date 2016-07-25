@@ -77,6 +77,7 @@
     "StageC_DistA": "EPS63-3",
     "StageC_Left": "TOB32",
     "StageC_Right": "SOB",
+    "Microsoft": "SOB",
 
     "Changeover_Y_Adapter": "ADAP63/125",
     "Changeover_Y": "125AMF-EVENT",

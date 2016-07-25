@@ -362,6 +362,11 @@
     "dst": "StageC_Right"
   },
   {
+    "src": "StageC_DistA",
+    "length": 35,
+    "dst": "Microsoft"
+  },
+  {
     "src": "Ydis",
     "length": 35,
     "dst": "Changeover_Y_Adapter"
