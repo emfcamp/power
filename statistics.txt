@@ -1,8 +1,8 @@
 
 Grid	NodeCt	CableCt	CableLeng[m]	CableMass[kg]
-Ygen 	57 	56 	1150.5 	1083.685
+Ygen 	58 	57 	1175.5 	1092.935
 Xgen 	62 	61 	1379.5 	1862.995
-Total	129 	120 	2610.0 	2991.91
+Total	128 	121 	2635.0 	3001.16
 
 10 distros furthest from generator
 node	grid	distance(m)
@@ -41,7 +41,7 @@ Qty	Type
 2 	125AMF-EVENT
 1 	GBR-3
 2 	EPS63-4
-57 	TOB32
+56 	TOB32
 4 	SSB/32
 6 	TOB16
 1 	TH
@@ -80,7 +80,7 @@ Ygen	32/3	10	1
 Ygen	63/3	35	3
 Ygen	32/3	5	1
 Xgen	63/3	35	3
-Ygen	32A	25	7
+Ygen	32A	25	8
 Ygen	63/3	15	1
 Xgen	63/3	50	8
 Ygen	32A	10	14
