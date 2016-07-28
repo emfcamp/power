@@ -124,11 +124,9 @@
 
     "Tree": "EPS32-2",
 
-    "Workshop2_Dist": "EPS63-3",
-    "Workshop2_A": "TOB32",
-    "Workshop2_B": "TOB32",
-    "Workshop2_C": "TOB32",
-    "Workshop2_Adapter": "TH",
+    "Algorave_Dist": "EPS63-3",
+    "Algorave_A": "TOB32",
+    "Algorave_Adapter": "TH",
 
     "Spillout": "EPS32-2",
     "Showers": "EPS32-2",
@@ -142,5 +140,6 @@
     "Arcade_C": "TOB32",
     "Arcade_D": "TOB32",
     "Arcade_E": "TOB32",
-    "Algorave": "TOB32"
+    "Workshop2_A": "TOB32",
+    "Workshop2_B": "TOB32"
 }

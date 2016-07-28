@@ -550,25 +550,20 @@
   {
     "src": "Bar_Dist",
     "length": 35,
-    "dst": "Workshop2_Dist"
+    "dst": "Algorave_Dist"
   },
   {
-    "src": "Workshop2_Dist",
+    "src": "Algorave_Dist",
     "length": 5,
-    "dst": "Workshop2_A"
+    "dst": "Algorave_A"
   },
   {
-    "src": "Workshop2_Dist",
+    "src": "Algorave_Dist",
     "length": 5,
-    "dst": "Workshop2_A"
-  },
-  {
-    "src": "Workshop2_Dist",
-    "length": 5,
-    "dst": "Workshop2_Adapter"
+    "dst": "Algorave_Adapter"
   },
     {
-    "src": "Workshop2_Adapter",
+    "src": "Algorave_Adapter",
     "length": 15,
     "dst": "Badge_Dist"
   },
@@ -615,10 +610,15 @@
   {
     "src": "Arcade_Dist",
     "length": 25,
-    "dst": "Algorave"
+    "dst": "Workshop2_A"
   },
   {
-    "src": "Workshop2_Adapter",
+    "src": "Arcade_Dist",
+    "length": 25,
+    "dst": "Workshop2_B"
+  },
+  {
+    "src": "Algorave_Adapter",
     "length": 50,
     "dst": "Spillout"
   },
