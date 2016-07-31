@@ -41,7 +41,7 @@ def draw_label(label, width, height, node):
 
     label.add(shapes.Image(92*mm, 0.77*mm, 3.39*mm, 55.46*mm, power))
 
-sheet = labels.Sheet(specs, draw_label, border=True)
+sheet = labels.Sheet(specs, draw_label, border=False)
 
 # draw each node as a label
 for node in nodes:
