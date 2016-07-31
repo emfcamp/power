@@ -30,3 +30,16 @@ or on Mac, preview can convert ps to pdf, with out the need to install ghostscri
 ```
 ./diagram.py | unflatten -l 3  | dot -Tps2 > power.ps
 ```
+
+Labels
+======
+Requirments
+```
+pip install reportlab pylabels
+```
+
+Run
+```
+./node-labels.py
+```
+output is in node-labels.py
